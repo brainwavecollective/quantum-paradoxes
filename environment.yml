@@ -1,0 +1,13 @@
+name: quantum-paradoxes
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - matplotlib
+  - numpy==1.24.0
+  - jupyter
+  - pip:
+    - qiskit==0.39.0
+    - pylatexenc
+    
